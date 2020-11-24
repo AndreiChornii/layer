@@ -1,0 +1,644 @@
+*{
+    font-family: sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'andesitalicw04-regularregular';
+    src: url('webfontkit-20191007-070737/andes_italic_w04_regular-webfont.woff2') format('woff2'),
+        url('webfontkit-20191007-070737/andes_italic_w04_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-height: 1500px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#container{
+    /* max-width: 1035px; */
+    height: 90%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 25px;
+    background-image: url(../img/bmw.jpg);
+    background-size:  cover;
+    min-height: 512px;
+    max-width: 100%;
+}
+
+#banner{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#left_part{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#right_part{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#right_part a{
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    padding: 2px 24px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#logo{
+    position: relative;
+    width: 200px;
+    display: flex;
+    font-size: 20px;
+    font-weight:  bold;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+#header-menu{
+    width: 680px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+}
+
+#header-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    width:600px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+#header-menu ul li{
+    margin-left:5px;
+}
+
+#header-menu ul li a{
+    display: block;
+    padding: 0 0 15px 0px;
+    color: #000;
+    margin: 5px;
+    height: 55px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#header-menu ul li a:hover{
+    color: #ccc2c2;
+}
+
+.glyphicon {
+    font-size: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/* #banner{
+    position: relative;
+} */
+
+#banner img{
+    /*width: 100%;*/
+    /* border: 1px solid black; */
+}
+
+#banner #navigation{
+    position: absolute;
+    top: 40%;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner #navigation .btn{
+    color: #fff;
+    background-color: #83699d;
+    padding: 10px 3px;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+}
+
+#banner #navigation .btn:hover{
+    background-color: #59466d;
+}
+
+#banner #navigation #MintoText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#banner #navigation #MintoText span{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 550;
+    margin-top: 25px;
+}
+
+#banner #navigation #MintoText .minto{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+#form_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -15px;
+    border: 1px solid #d6d0c5;
+}
+
+form input{
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="text"]{
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+form input[type="date"]{
+    padding: 5px 0px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+form input[type="submit"]{
+    padding: 5px 30px;
+    background-color: #f0222f;
+    color: #ffffff
+}
+
+form input[type="submit"]:hover{
+    background-color: #66040a;
+}
+
+.flights{
+    margin-top: 50px;
+}
+
+.fl{
+    font-size: 25px;
+}
+
+.wrapper_menu_flights{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.flights_menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flights_menu ul li{
+    margin-left:5px;
+}
+
+.flights_menu ul li a{
+    display: block;
+    padding: 0 0 15px 0px;
+    margin: 5px;
+    height: 35px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.flights_menu ul li:first-child a{
+    color: #f0222f;
+}
+
+#flights_table{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#flights_table table{
+    width: 100%;
+}
+
+#flights_table table tr th{
+    font-size: 15px;
+    text-align: left;
+}
+
+#flights_table table tr td h5{
+    margin-bottom: 5px;
+}
+
+#flights_table table tr td span:before{
+    content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0 ";
+}
+
+#flights_table table tr td span{
+    font-size: 10px;
+    color: #7d7374;
+}
+
+#vueling::before{
+    content: url(/img/Shape-2.png);
+}
+
+#af::before{
+    content: url(/img/Shape-3.png);
+}
+
+#am::before{
+    content: url(/img/Shape-4.png);
+}
+
+#delta::before{
+    content: url(/img/Shape-5.png);
+}
+
+#trans::before{
+    content: url(/img/Shape-4.png);
+}
+
+#flights_table tr td a{
+    display: block;
+    padding: 5px 20px;
+    color: #9c0b19;
+    font-size: 15px;
+    border: 1px solid #9c0b19;
+    border-radius: 3px;
+    text-align:  center;
+}
+
+#flights_table tr td:last-child{
+    width: 100px;
+}
+
+#see_all_flights{
+    display: flex;
+    justify-content:  flex-end;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 90%;
+}
+
+#see_all_flights a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+/*hotels*/
+.hotels_view{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotels_view .picture_text_buttom{
+    border: 1px solid #dbc5c3;
+    max-width: 32%;
+    margin-top: 15px;
+
+}
+
+.hotels_view .picture_text_buttom img{
+    max-width: 100%;
+}
+
+.hotels_view .picture_text_buttom .text_buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100px;
+    margin: 0 5px;
+}
+
+.hotels_view .picture_text_buttom .text_buttom span{
+    font-weight:  bold;
+    font-size: 10px;
+}
+
+.hotels_view .picture_text_buttom .text_buttom .text{
+    color: #9c947e;
+    font-size: 10px;
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+}
+
+.hotels_view .picture_text_buttom .text_buttom a{
+    display: block;
+    padding: 5px 20px;
+    color: #9c0b19;
+    font-size: 13px;
+    border: 1px solid #9c0b19;
+    border-radius: 3px;
+    text-align:  center;
+    max-width: 80px;
+}
+
+/*attractions*/
+.attractions{
+    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.attractions .wrap_attr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+}
+
+.attractions .wrap_attr > .img-block{
+    max-width: 32%;
+}
+
+.attractions .wrap_attr > .img-block img{
+    width: 100%;
+}
+
+.wrap_attr #vert_pictures{
+    display: flex;
+    flex-direction: column;
+    max-width: 66%;
+    justify-content: space-between;
+}
+
+.wrap_attr #vert_pictures div{
+    width: 100%;
+}
+
+.wrap_attr #vert_pictures div img{
+    width: 100%;
+}
+
+.wrap_attr #horiz_pictures{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wrap_attr #horiz_pictures div{
+    max-width: 32%;
+}
+
+.wrap_attr #horiz_pictures div img{
+    width: 100%;
+}
+
+#see_all_attractions{
+    display: flex;
+    justify-content:  flex-end;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+#see_all_attractions a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+/*trips*/
+.trips_view{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.trips_view .trips_pic_text{
+    border: 1px solid #dbc5c3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.trips_view .trips_pic_text img{
+    max-width: 32%;
+}
+
+.trips_view .trips_pic_text div{
+    max-width: 64%;
+    padding-right: 10px;
+}
+
+.trips_view .trips_pic_text div span{
+    font-size: 11px;
+}
+
+.trips_pic_text{
+    height: 120px;
+}
+
+/*footer*/
+footer{
+    max-width: 1035px;
+    height: 10%;
+    margin: auto;
+    margin-top: 10px;
+}
+.wrapper_footer{
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.wrapper_footer h4{
+    font-weight:  normal;
+}
+
+.wrapper_footer .menu_footer ul li a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.wrapper_footer div:last-child .menu_footer ul li:last-child a{
+    color:  #9c0b19;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+label{
+    display: none;
+}
+
+@media(max-width: 800px){
+    #right_part{
+        width: 20%;
+    }
+    .trips_pic_text {
+        height: 140px;
+    }
+    header{
+        min-width: 100%;
+        margin-left: -80px;
+    }
+}
+
+@media(max-width: 600px){
+    .hamburger-menu{
+        display: block;
+        z-index: 1;
+    }
+    #header-menu{
+        display: none;
+    }
+    #menu__toggle {
+        opacity: 0;
+    }/* стилизуем кнопку */
+    .menu__btn {
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 20px;
+        left: 20px;  width: 26px;
+        height: 26px;  cursor: pointer;
+        z-index: 1;
+    }/* добавляем "гамбургер" */
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: absolute;  width: 100%;
+        height: 2px;  background-color: #616161;
+    }
+    .menu__btn > span::before {
+        content: '';
+        top: -8px;
+    }
+    .menu__btn > span::after {
+        content: '';
+        top: 8px;
+    }
+    /* контейнер меню */
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;  width: 300px;
+        height: 100%;  margin: 0;
+        padding: 80px 0;  list-style: none;
+        text-align: center;  background-color: #ECEFF1;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        background-color: #718bac;
+    }/* элементы меню */
+    .menu__item {
+        display: block;
+        padding: 12px 24px;  color: #333;  font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;  text-decoration: none;
+    }
+
+    .menu__item a{
+        color: #616161;
+    }
+    
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+    }
+    #banner #navigation #MintoText #minto{
+        font-size: 30px;
+    }
+    form{
+        flex-direction: column;
+    }
+    .trips_view .trips_pic_text img{
+        max-height: 150px;
+        margin-top: 28px;
+    }
+    #flights_table table tr th{
+        font-size: 11px;
+    }
+    #flights_table table tr td span:before{
+         content: "";
+   }
+   #flights_table table tr td h5{
+       font-size: 8px;
+   }
+   header{
+       background-image: url(../img/bmw.jpg);
+       margin-top: 40px;
+       margin-left: -300px;
+       min-width: 300%;
+   }
+   .trips_pic_text {
+       height: 240px;
+   }
+}
