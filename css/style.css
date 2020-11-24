@@ -537,6 +537,9 @@ label{
 }
 
 @media(max-width: 600px){
+    body{
+        max-width: 600px;
+    }
     .hamburger-menu{
         display: block;
         z-index: 1;
@@ -636,7 +639,7 @@ label{
        background-image: url(../img/bmw.jpg);
        margin-top: 40px;
        margin-left: -300px;
-       min-width: 300%;
+       max-width: 200%;
    }
    .trips_pic_text {
        height: 240px;
