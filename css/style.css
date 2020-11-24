@@ -532,6 +532,13 @@ label{
     display: none;
 }
 
+.wrapper_footer #logotype{
+    width:160px;
+    height:150px;
+    border: 1px solid black;
+    background-image: url(../img/ari-art-small.png);
+}
+
 @media(max-width: 800px){
     #right_part{
         width: 20%;
