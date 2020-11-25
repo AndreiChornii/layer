@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/criminal.html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/insurance_disputes.html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reimbursement.html.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Ijdb/Controllers/Joke.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/Controllers/Joke.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Ijdb/IjdbRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/IjdbRoutes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jokes.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/jokes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/ari-art_oval_small_del.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606301556645</updated>
-      <workItem from="1606301558915" duration="11034000" />
+      <workItem from="1606301558915" duration="12013000" />
     </task>
     <servers />
   </component>
