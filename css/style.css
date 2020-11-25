@@ -535,8 +535,8 @@ label{
 .wrapper_footer #logotype{
     width:160px;
     height:150px;
-    border: 1px solid black;
-    background-image: url(../img/ari-art-small.png);
+    /* border: 1px solid black; */
+    background-image: url(../img/ari-art_oval_small.jpg);
 }
 
 @media(max-width: 800px){
