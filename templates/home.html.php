@@ -65,7 +65,7 @@
                     <div class="text">
                         <div class="km">Відшкодування збитку страховою компанією при ДТП</div>
                     </div>
-                    <a href="#">Деталі</a>
+                    <a href="lawyers/insurance">Деталі</a>
                 </div>
             </div>
             <div class="picture_text_buttom">
@@ -75,7 +75,7 @@
                     <div class="text">
                         <div class="km">Стягнення відшкодування заподіяної шкоди з винуватця ДТП</div>
                     </div>
-                    <a href="#">Деталі</a>
+                    <a href="lawyers/reimbursement">Деталі</a>
                 </div>
             </div>
             <div class="picture_text_buttom">
@@ -85,7 +85,7 @@
                     <div class="text">
                         <div class="km">Адвокат у кримінальних справах при ДТП</div>
                     </div>
-                    <a href="#">Деталі</a>
+                    <a href="lawyers/criminal">Деталі</a>
                 </div>
             </div>
             <div class="picture_text_buttom">

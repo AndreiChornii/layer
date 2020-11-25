@@ -61,6 +61,24 @@ class Joke {
         return ['template' => 'home.html.php', 'title' => $title];
     }
 
+    public function insurance() {
+        $title = 'lawyer-dnepr';
+
+        return ['template' => 'insurance_disputes.html.php', 'title' => $title];
+    }
+
+    public function reimbursement() {
+        $title = 'lawyer-dnepr';
+
+        return ['template' => 'reimbursement.html.php', 'title' => $title];
+    }
+
+    public function criminal() {
+        $title = 'lawyer-dnepr';
+
+        return ['template' => 'criminal.html.php', 'title' => $title];
+    }
+
     public function delete() {
         $author = $this->authentication->getUser();
         $joke = $this->jokesTable->findById($_POST['id']);

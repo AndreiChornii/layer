@@ -172,6 +172,24 @@ class IjdbRoutes implements \Ninja\Routes {
                 'login' => true,
                 'permissions' => \Ijdb\Entity\Author::EDIT_USER_ACCESS
             ],
+            'lawyers/insurance' => [
+                'GET' => [
+                    'controller' => $jokeController,
+                    'action' => 'insurance'
+                ]
+            ],
+            'lawyers/reimbursement' => [
+                'GET' => [
+                    'controller' => $jokeController,
+                    'action' => 'reimbursement'
+                ]
+            ],
+            'lawyers/criminal' => [
+                'GET' => [
+                    'controller' => $jokeController,
+                    'action' => 'criminal'
+                ]
+            ],
         ];
 
         return $routes;
