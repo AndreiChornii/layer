@@ -515,7 +515,7 @@ footer{
 
 .wrapper_footer .menu_footer ul li a{
     text-decoration: none;
-    color: #000000;
+    /*color: #443A5C;*/
     cursor: pointer;
     font-size: 14px;
 }
