@@ -107,3 +107,12 @@ p{
     text-indent: 30px;
 }
 
+@media(max-width: 600px){
+    footer {font-size: 1.0em;}
+    .wrapper_footer .menu_footer ul li a{
+        font-size: 16px;
+    }
+}
+
+
+
