@@ -5,8 +5,20 @@ h1 {font-weight: normal; padding: 1.5em; color: white; text-shadow: 1px 1px 0px 
 
 nav {background-color: #443A5C;}
 
-nav a {color: white; text-decoration: none;}
-nav a:hover {color: #ddd;}
+nav a {
+    background-color: #718bac;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 3px;
+
+}
+nav a:hover {
+    color: #ddd;
+    background-color: #757575;
+}
 nav ul {display: table; width: 1000px; margin: auto;}
 nav li {display: table-cell; text-align: center; padding: 1em;}
 
@@ -69,7 +81,7 @@ input[type="checkbox"] + label {clear: right;}
     text-decoration: none;
     color: #000000;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .wrapper_footer div:last-child .menu_footer ul li:last-child a{
@@ -82,3 +94,16 @@ input[type="checkbox"] + label {clear: right;}
     /* border: 1px solid black; */
     background-image: url(../img/ari-art_oval_small.jpg);
 }
+
+.wrapper_footer ul{
+    list-style-type: none;
+}
+
+/*
+абзац
+ */
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
