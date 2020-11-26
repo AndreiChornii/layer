@@ -28,6 +28,7 @@ footer {
     padding: 1em;
     background-color: #718bac ;
     font-size: 1.0em;
+    font-weight: bold;
 }
 
 p {margin-bottom: 1em;}
@@ -78,7 +79,7 @@ input[type="checkbox"] + label {clear: right;}
 }
 
 .wrapper_footer h4{
-    font-weight:  normal;
+    font-weight:  bold;
 }
 
 .wrapper_footer .menu_footer ul li a{
@@ -86,6 +87,7 @@ input[type="checkbox"] + label {clear: right;}
     color: #443A5C;
     cursor: pointer;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .wrapper_footer div:last-child .menu_footer ul li:last-child a{
