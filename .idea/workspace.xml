@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/email.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/emailsuccess.html.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Ijdb/Controllers/Joke.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/Controllers/Joke.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Ijdb/IjdbRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/IjdbRoutes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/jokes.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/jokes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +52,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -63,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606301556645</updated>
       <workItem from="1606301558915" duration="19851000" />
-      <workItem from="1606412656495" duration="1948000" />
+      <workItem from="1606412656495" duration="2548000" />
+      <workItem from="1606463712059" duration="7425000" />
     </task>
     <servers />
   </component>

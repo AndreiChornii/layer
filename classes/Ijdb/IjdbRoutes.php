@@ -190,6 +190,16 @@ class IjdbRoutes implements \Ninja\Routes {
                     'action' => 'criminal'
                 ]
             ],
+            'lawyers/email' => [
+                'GET' => [
+                    'controller' => $jokeController,
+                    'action' => 'email'
+                ],
+                'POST' => [
+                    'controller' => $jokeController,
+                    'action' => 'processEmail'
+                ]
+            ],
         ];
 
         return $routes;

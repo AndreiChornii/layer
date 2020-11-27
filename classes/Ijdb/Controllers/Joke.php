@@ -79,6 +79,27 @@ class Joke {
         return ['template' => 'criminal.html.php', 'title' => $title];
     }
 
+    public function email() {
+        $title = 'lawyer-dnepr';
+
+        return ['template' => 'email.html.php', 'title' => $title];
+    }
+
+    public function processEmail() {
+
+        return ['template' => 'emailsuccess.html.php', 'title' => 'lawyer-dnepr',
+            'variables' => [
+                'name' => $_POST['name_field_set'],
+                'tel' => $_POST['tel_field_set'],
+                'email' => $_POST['email_field_set'],
+                'text' => $_POST['text_field_set'],
+            ]];
+    }
+
+    public function success() {
+
+    }
+
     public function delete() {
         $author = $this->authentication->getUser();
         $joke = $this->jokesTable->findById($_POST['id']);

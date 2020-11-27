@@ -17,6 +17,7 @@
             <ul>
                 <li id="hotels_in_header_menu"><a href="#hotels">Послуги адвоката</a></li>
                 <li id="trips_in_header_menu"><a href="#trips">Переваги звернення</a></li>
+                <li id="email_in_header_menu"><a href="lawyers/email">Залишити питання</a></li>
             </ul>
         </div>
         <div class="hamburger-menu">
@@ -27,6 +28,7 @@
             <ul class="menu__box">
                 <li id="hotels_in_header_menu" class="menu__item"><a href="#hotels">Послуги адвоката</a></li>
                 <li id="trips_in_header_menu" class="menu__item"> <a href="#trips">Переваги звернення</a></li>
+                <li id="email_in_header_menu" class="menu__item"> <a href="lawyers/email">Залишити питання</a></li>
             </ul>
         </div>
         <!-- <div id="wrapper_header">

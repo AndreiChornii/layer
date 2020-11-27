@@ -113,10 +113,26 @@ p{
     text-indent: 30px;
 }
 
+/*
+form
+ */
+#set_download #sub{
+    background-color: #757575;
+    color: #ffffff;
+}
+
+textarea{
+    min-width: 600px;
+}
+
+#set_download #sub:hover{
+    background-color: #443A5C;
+    color: #ffffff;
+}
+
 /*@media(max-width: 600px){*/
-/*    footer {font-size: 1.0em;}*/
-/*    .wrapper_footer .menu_footer ul li a{*/
-/*        font-size: 16px;*/
+/*    textarea{*/
+/*        min-width: 0px;*/
 /*    }*/
 /*}*/
 
