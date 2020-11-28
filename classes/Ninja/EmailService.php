@@ -22,6 +22,8 @@ class EmailService
         $mail->Host = 'smtp.gmail.com'; //gmail: smtp.gmail.com
         $mail->SMTPDebug = 0;
         $mail->SMTPAuth = true;
+//        $mail->SMTPAuth = false;
+        $mail->SMTPAutoTLS = false;
         $mail->Username = 'compliance.branch.dn@gmail.com';
         $mail->Password = 'compliance2020';
         $mail->SMTPSecure = 'ssl';
