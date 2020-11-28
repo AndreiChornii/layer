@@ -30,13 +30,12 @@ class EmailService
         $mail->setFrom('compliance.branch.dn@gmail.com', 'Compliance');
         $mail->addAddress('andrei.chornii@gmail.com');    //Получатель
         $mail->isHTML(true);
-        $date = new DateTime();
-        $date->sub(new DateInterval('P1D'));
+
 
         $mail->Subject = 'no FIZGOT on sftp';
         $mail->Body = 'Добрый день, Светлана Евгеньевна!<br />
                        Ежедневно мы от Вас на сфтп получаем выборку FIZGOT.<br />
-                       В результате анализа полученной информации, установлено, что отсутствует файл за дату  '. $date->format('d.m.Y') . ' на sftp://ftpuser@isftp.pbank.com.ua/FIZGOT/<br />';
+                       В результате анализа полученной информации, установлено, что отсутствует файл за дату  на sftp://ftpuser@isftp.pbank.com.ua/FIZGOT/<br />';
         if (!$mail->send()) {
             return ' Ошибка при отправке. Ошибка: ' . $mail->ErrorInfo;
         } else {
