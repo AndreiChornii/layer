@@ -23,7 +23,7 @@ class EmailService
         $mail->SMTPDebug = 2;
         $mail->SMTPAuth = true;
 //        $mail->SMTPAuth = false;
-        $mail->SMTPAutoTLS = false;
+//        $mail->SMTPAutoTLS = false;
         $mail->Username = 'compliance.branch.dn@gmail.com';
         $mail->Password = 'compliance2020';
         $mail->SMTPSecure = 'ssl';
