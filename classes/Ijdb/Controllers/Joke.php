@@ -19,7 +19,7 @@ class Joke {
         $this->categoriesTable = $categoriesTable;
         $this->jokeCategoriesTable = $jokeCategoriesTable;
         $this->authentication = $authentication;
-        }
+    }
 
     public function list() {
             

@@ -7,10 +7,6 @@ namespace Ijdb\Entity;
 class Email
 {
 
-    private $emailService;
-
-    public function __construct(){
-
-    }
+    const EMAILS_TO_SEND = ['andrei.chornii@gmail.com', 'strongfart@i.ua'];
 
 }

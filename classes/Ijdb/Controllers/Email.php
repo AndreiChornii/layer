@@ -20,13 +20,14 @@ class Email
     }
 
     public function processEmail() {
-        $rez = $this->emailLawyer->sendEmail();
+        $arr_of_mail_parameters = [];
+        $arr_of_mail_parameters[] = $_POST['name_field_set'];
+        $arr_of_mail_parameters[] = $_POST['tel_field_set'];
+        $arr_of_mail_parameters[] = $_POST['email_field_set'];
+        $arr_of_mail_parameters[] = $_POST['text_field_set'];
+        $rez = $this->emailLawyer->sendEmail(\Ijdb\Entity\Email::EMAILS_TO_SEND, $arr_of_mail_parameters);
         return ['template' => 'emailsuccess.html.php', 'title' => 'lawyer-dnepr',
             'variables' => [
-                'name' => $_POST['name_field_set'],
-                'tel' => $_POST['tel_field_set'],
-                'email' => $_POST['email_field_set'],
-                'text' => $_POST['text_field_set'],
                 'rez' => $rez
             ]];
     }

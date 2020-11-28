@@ -10,7 +10,7 @@ class EmailService
 
     }
 
-    public function sendEmail(){
+    public function sendEmail(array $emails_of_recepients, array $arr_of_mail_parameters){
 //        $path_to_phpmailer = $_SERVER['DOCUMENT_ROOT'] . '/../includes/PHPMailer/PHPMailerAutoload.php';
 //        $path_to_phpmailer = '/var/www/lawyer-dnepr/includes/PHPMailer/PHPMailerAutoload.php';
 //        $path_to_phpmailer = $_SERVER;
@@ -27,19 +27,23 @@ class EmailService
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         $mail->setLanguage('ru');
-        $mail->setFrom('compliance.branch.dn@gmail.com', 'Compliance');
-        $mail->addAddress('andrei.chornii@gmail.com');    //Получатель
+        $mail->setFrom('compliance.branch.dn@gmail.com', 'Got question from site lawyer-dnepr');
+//        $mail->addAddress($email_of_recepient);
+        foreach ($emails_of_recepients as $el){     //Получатели
+            $mail->addAddress($el);
+        }
         $mail->isHTML(true);
+        $mail->Subject = 'question from site lawyer-dnepr';
+        $str_to_email = '';
+        foreach ($arr_of_mail_parameters as $el){
+            $str_to_email .= $el . '<BR />';
+        }
+        $mail->Body = $str_to_email;
 
-
-        $mail->Subject = 'no FIZGOT on sftp';
-        $mail->Body = 'Добрый день, Светлана Евгеньевна!<br />
-                       Ежедневно мы от Вас на сфтп получаем выборку FIZGOT.<br />
-                       В результате анализа полученной информации, установлено, что отсутствует файл за дату  на sftp://ftpuser@isftp.pbank.com.ua/FIZGOT/<br />';
         if (!$mail->send()) {
-            return ' Ошибка при отправке. Ошибка: ' . $mail->ErrorInfo;
+            return 'Помилка при відправці. Помилка: ' . $mail->ErrorInfo;
         } else {
-            return ' Сообщения успешно отправлены';
+            return 'Ваше повідомлення надіслано.';
         }
     }
 }
