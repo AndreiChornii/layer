@@ -1,6 +1,7 @@
 <?php
 try {
 	include __DIR__ . '/../includes/autoload.php';
+    include __DIR__ . '/../includes/PHPMailer/PHPMailerAutoload.php';
         
 //        echo $_SERVER['REQUEST_METHOD'];
 //        echo "<BR />";

@@ -9,6 +9,7 @@ class IjdbRoutes implements \Ninja\Routes {
     private $categoriesTable;
     private $jokeCategoriesTable;
     private $authentication;
+    private $emailService;
 
     public function __construct() {
         include __DIR__ . '/../../includes/DatabaseConnection.php';
@@ -17,6 +18,7 @@ class IjdbRoutes implements \Ninja\Routes {
         $this->jokeCategoriesTable = new \Ninja\DatabaseTable($pdo, 'joke_category', 'categoryId');
         $this->categoriesTable = new \Ninja\DatabaseTable($pdo, 'category', 'id', '\Ijdb\Entity\Category', [&$this->jokesTable, &$this->jokeCategoriesTable]);
         $this->authentication = new \Ninja\Authentication($this->authorsTable, 'email', 'password');
+        $this->emailService = new \Ninja\EmailService();
     }
 
     public function getRoutes(): array {
@@ -29,6 +31,7 @@ class IjdbRoutes implements \Ninja\Routes {
         $authorController = new \Ijdb\Controllers\Register($this->authorsTable);
         $loginController = new \Ijdb\Controllers\Login($this->authentication);
         $categoryController = new \Ijdb\Controllers\Category($this->categoriesTable);
+        $emailController = new \Ijdb\Controllers\Email($this->emailService);
 
         $routes = [
             'author/register' => [
@@ -192,11 +195,11 @@ class IjdbRoutes implements \Ninja\Routes {
             ],
             'lawyers/email' => [
                 'GET' => [
-                    'controller' => $jokeController,
+                    'controller' => $emailController,
                     'action' => 'email'
                 ],
                 'POST' => [
-                    'controller' => $jokeController,
+                    'controller' => $emailController,
                     'action' => 'processEmail'
                 ]
             ],
