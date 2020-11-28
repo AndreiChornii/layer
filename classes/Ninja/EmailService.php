@@ -25,8 +25,9 @@ class EmailService
 //        $mail->SMTPAuth = false;
 //        $mail->SMTPAutoTLS = false;
         $mail->Username = 'compliance.branch.dn@gmail.com';
-        $mail->Password = 'compliance2020';
+        $mail->Password = 'comp010120';
         $mail->SMTPSecure = 'ssl';
+//        $mail->SMTPSecure = 'tls';
         $mail->Port = 465;
         $mail->setLanguage('ru');
         $mail->setFrom('compliance.branch.dn@gmail.com', 'Got question from site lawyer-dnepr');
