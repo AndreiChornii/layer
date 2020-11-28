@@ -20,7 +20,7 @@ class EmailService
 //        $mail = new \PHPMailer\PHPMailerAutoload;
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; //gmail: smtp.gmail.com
-        $mail->SMTPDebug = 0;
+        $mail->SMTPDebug = 2;
         $mail->SMTPAuth = true;
 //        $mail->SMTPAuth = false;
         $mail->SMTPAutoTLS = false;

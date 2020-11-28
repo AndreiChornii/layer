@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Ijdb/Entity/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/Entity/Email.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Ninja/EmailService.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ninja/EmailService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <workItem from="1606301558915" duration="19851000" />
       <workItem from="1606412656495" duration="2548000" />
       <workItem from="1606463712059" duration="15672000" />
-      <workItem from="1606559024781" duration="18551000" />
+      <workItem from="1606559024781" duration="20532000" />
     </task>
     <servers />
   </component>
