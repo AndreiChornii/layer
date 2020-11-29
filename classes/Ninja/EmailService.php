@@ -29,6 +29,7 @@ class EmailService
         $mail->SMTPSecure = 'ssl';
 //        $mail->SMTPSecure = 'tls';
         $mail->Port = 465;
+        $mail->CharSet = 'UTF-8';
         $mail->setLanguage('ru');
         $mail->setFrom('compliance.branch.dn@gmail.com', 'Got question from site lawyer-dnepr');
 //        $mail->addAddress($email_of_recepient);
