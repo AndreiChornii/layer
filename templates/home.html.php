@@ -13,11 +13,38 @@
 <body>
 <div id="container">
     <div id="banner">
+        <div id="logotype_in_header">
+
+        </div>
         <div id="header-menu">
+
             <ul>
                 <li id="hotels_in_header_menu"><a href="#hotels">Послуги адвоката</a></li>
                 <li id="trips_in_header_menu"><a href="#trips">Переваги звернення</a></li>
                 <li id="email_in_header_menu"><a href="lawyers/email">Залишити питання</a></li>
+            </ul>
+<!--            <div class="menu_in_header">-->
+<!--                <ul>-->
+<!--                    <li>Зв'яжіться електронною поштою</li>-->
+<!--                    <li><a href="mailto:strongfart@i.ua">strongfart@i.ua</a></li>-->
+<!--                    <li>або за телефонами</li>-->
+<!--                    <li>(093)837-73-43</li>-->
+<!--                    <li>(063)055-83-97</li>-->
+<!--                    <li>(066)419-79-52</li>-->
+<!--                    <li>вул.Глінки 1</li>-->
+<!--                </ul>-->
+<!--            </div>-->
+        </div>
+        <div id="right_block_in_header"  class="menu_footer">
+            <ul>
+                <li>Зв'яжіться електронною поштою</li>
+                <li><a href="mailto:strongfart@i.ua">strongfart@i.ua</a></li>
+                <li>або за телефонами</li>
+                <li>(093)837-73-43</li>
+                <li>(063)055-83-97</li>
+                <li>(066)419-79-52</li>
+                <li>Адреса:</li>
+                <li>м.Дніпро,вул.Глінки 1</li>
             </ul>
         </div>
         <div class="hamburger-menu">
@@ -64,7 +91,7 @@
         </div>
         <div class="hotels_view">
             <div class="picture_text_buttom">
-                <img src="img/casco.jpg" alt="">
+                <img src="img/one_casco_hello.jpg" alt="">
                 <div class="text_buttom">
                     <span>Страхові спори Цивілка/КАСКО</span>
                     <div class="text">
@@ -74,7 +101,7 @@
                 </div>
             </div>
             <div class="picture_text_buttom">
-                <img src="img/focus_sm.jpg" alt="">
+                <img src="img/two_books_vidshkoduvannia.jpg" alt="">
                 <div class="text_buttom">
                     <span>Відшкодування шкоди після ДТП</span>
                     <div class="text">
@@ -84,7 +111,7 @@
                 </div>
             </div>
             <div class="picture_text_buttom">
-                <img src="img/criminal.jpg" alt="">
+                <img src="img/three_criminal_mercedes.jpg" alt="">
                 <div class="text_buttom">
                     <span>Кримінальні справи по ДТП</span>
                     <div class="text">
@@ -100,7 +127,7 @@
                     <div class="text">
                         <div class="km">Повний комплекс послуг по захисту водія</div>
                     </div>
-                    <a href="#">Деталі</a>
+                    <a href="lawyers/dtp_124">Деталі</a>
                 </div>
             </div>
             <div class="picture_text_buttom">
@@ -110,11 +137,11 @@
                     <div class="text">
                         <div class="km">Встановлення дійсної суми збитку</div>
                     </div>
-                    <a href="#">Деталі</a>
+                    <a href="lawyers/expertize">Деталі</a>
                 </div>
             </div>
             <div class="picture_text_buttom">
-                <img src="img/trasology.jpg" alt="">
+                <img src="img/six_out_hide.jpg" alt="">
                 <div class="text_buttom">
                     <span>Зникнення винуватця з місця пригоди</span>
                     <div class="text">

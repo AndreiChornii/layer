@@ -31,7 +31,7 @@ footer {
     font-weight: bold;
 }
 
-p {margin-bottom: 1em;}
+/*p {margin-bottom: 1em;}*/
 
 body {font-size: 1.4em; font-family: arial, helvetica, sans-serif}
 input, label, select, textarea {float: left; width: 15em; margin-bottom: 1em;  padding: 0.5em;}
@@ -111,6 +111,7 @@ input[type="checkbox"] + label {clear: right;}
 p{
     text-align: justify;
     text-indent: 30px;
+    padding: 0 10px 0 10px;
 }
 
 /*

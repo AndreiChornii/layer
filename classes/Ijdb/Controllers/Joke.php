@@ -79,6 +79,18 @@ class Joke {
         return ['template' => 'criminal.html.php', 'title' => $title];
     }
 
+    public function dtp_124() {
+        $title = 'lawyer-dnepr';
+
+        return ['template' => 'dtp_124.html.php', 'title' => $title];
+    }
+
+    public function expertise() {
+        $title = 'lawyer-dnepr';
+
+        return ['template' => 'expertise.html.php', 'title' => $title];
+    }
+
     public function delete() {
         $author = $this->authentication->getUser();
         $joke = $this->jokesTable->findById($_POST['id']);
