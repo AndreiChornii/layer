@@ -101,7 +101,7 @@
                 </div>
             </div>
             <div class="picture_text_buttom">
-                <img src="img/two_books_vidshkoduvannia.jpg" alt="">
+                <img src="img/two_focus_sm.jpg" alt="">
                 <div class="text_buttom">
                     <span>Відшкодування шкоди після ДТП</span>
                     <div class="text">
@@ -121,7 +121,7 @@
                 </div>
             </div>
             <div class="picture_text_buttom">
-                <img src="img/124.jpg" alt="">
+                <img src="img/four_books_124.jpg" alt="">
                 <div class="text_buttom">
                     <span>ДТП ст. 124 КУпАП</span>
                     <div class="text">
@@ -146,7 +146,7 @@
                     <span>Зникнення винуватця з місця пригоди</span>
                     <div class="text">
                     </div>
-                    <a href="#">Деталі</a>
+                    <a href="lawyers/hide">Деталі</a>
                 </div>
             </div>
         </div>

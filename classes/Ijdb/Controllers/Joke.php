@@ -91,6 +91,12 @@ class Joke {
         return ['template' => 'expertise.html.php', 'title' => $title];
     }
 
+    public function hide() {
+        $title = 'lawyer-dnepr';
+
+        return ['template' => 'hide.html.php', 'title' => $title];
+    }
+
     public function delete() {
         $author = $this->authentication->getUser();
         $joke = $this->jokesTable->findById($_POST['id']);
