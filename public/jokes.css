@@ -86,8 +86,9 @@ input[type="checkbox"] + label {clear: right;}
     text-decoration: none;
     color: #443A5C;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
+    color: red;
 }
 
 .wrapper_footer div:last-child .menu_footer ul li:last-child a{

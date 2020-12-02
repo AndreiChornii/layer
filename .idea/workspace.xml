@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/four_books_124.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/two_focus_sm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hide.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bear.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bear_small.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Ijdb/Controllers/Joke.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/Controllers/Joke.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Ijdb/IjdbRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/IjdbRoutes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/focus_sm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/two_books_vidshkoduvannia.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/jokes.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/jokes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.php" afterDir="false" />
@@ -80,7 +75,7 @@
       <workItem from="1606559024781" duration="27076000" />
       <workItem from="1606661437779" duration="629000" />
       <workItem from="1606822492590" duration="13186000" />
-      <workItem from="1606904274752" duration="2179000" />
+      <workItem from="1606904274752" duration="3361000" />
     </task>
     <servers />
   </component>

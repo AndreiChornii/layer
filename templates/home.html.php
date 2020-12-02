@@ -46,6 +46,9 @@
                 <li>Адреса:</li>
                 <li>м.Дніпро,вул.Глінки 1</li>
             </ul>
+            <div id="bear_in_header">
+
+            </div>
         </div>
         <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />

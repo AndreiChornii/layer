@@ -56,6 +56,15 @@ header{
     margin-top: 50px;
 }
 
+#bear_in_header{
+    width: 160px;
+    height: 126px;
+    /*border: 1px solid black;*/
+    background-image: url(img/bear_small.jpg);
+    /*position: absolute;*/
+    /*margin-top: 50px;*/
+}
+
 #right_block_in_header{
     width: 180px;
     height: 160px;
@@ -67,7 +76,8 @@ header{
 }
 
 #right_block_in_header a{
-    font-size: 16px;
+    font-size: 18px;
+    color: red;
 }
 
 #banner{
@@ -541,7 +551,8 @@ footer{
     text-decoration: none;
     /*color: #443A5C;*/
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
+    color: red;
 }
 
 .wrapper_footer div:last-child .menu_footer ul li:last-child a{
