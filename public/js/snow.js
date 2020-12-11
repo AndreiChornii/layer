@@ -1,7 +1,8 @@
 `use_strict`
+//https://blogjquery.ru/sneg-na-saite-script-js/
 snow_img = "img/snow2.png";                                        //�������� ��������
 snow_no = 23;                                                 //����� ��������
-var timeszimaon = 1;                                          //��������� ������ 1 - ��, 0 - ���
+var timeszimaon = 0;                                          //��������� ������ 1 - ��, 0 - ���
 if (typeof (window.pageYOffset) == "number") {
     snow_browser_width = window.innerWidth;
     snow_browser_height = window.innerHeight;
