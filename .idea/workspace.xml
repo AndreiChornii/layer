@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +80,7 @@
       <workItem from="1607247971951" duration="439000" />
       <workItem from="1607248438010" duration="643000" />
       <workItem from="1607670824872" duration="1828000" />
-      <workItem from="1608412389493" duration="5052000" />
+      <workItem from="1608412389493" duration="5369000" />
     </task>
     <servers />
   </component>
@@ -105,10 +103,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608416094731">
+    <state x="453" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608417781230">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="453" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1301.744@65.24.1301.744" timestamp="1608416094731" />
+    <state x="453" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1301.744@65.24.1301.744" timestamp="1608417781230" />
     <state x="456" y="236" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606552715106">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
