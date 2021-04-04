@@ -11,6 +11,7 @@ class EmailService
     }
 
     public function sendEmail(array $emails_of_recepients, array $arr_of_mail_parameters){
+        // var_dump($arr_of_mail_parameters);
 //        $path_to_phpmailer = $_SERVER['DOCUMENT_ROOT'] . '/../includes/PHPMailer/PHPMailerAutoload.php';
 //        $path_to_phpmailer = '/var/www/lawyer-dnepr/includes/PHPMailer/PHPMailerAutoload.php';
 //        $path_to_phpmailer = $_SERVER;
@@ -44,8 +45,21 @@ class EmailService
         }
         $mail->Body = $str_to_email;
 
+        $msg = '';
+        // echo '<BR />';
+        //Attach multiple files one by one
+        for ($ct = 0; $ct < count($arr_of_mail_parameters[5]); $ct++) {
+            $uploadfile = tempnam(sys_get_temp_dir(), sha1($arr_of_mail_parameters[4][$ct]));
+            $filename = $arr_of_mail_parameters[4][$ct];
+            if (move_uploaded_file($arr_of_mail_parameters[5][$ct], $uploadfile)) {
+                $mail->addAttachment($uploadfile, $filename);
+            } else {
+                $msg .= 'Failed to move file to ' . $uploadfile;
+            }
+        }
+
         if (!$mail->send()) {
-            return 'Помилка при відправці. Помилка: ' . $mail->ErrorInfo;
+            return 'Помилка при відправці. Помилка: ' . $mail->ErrorInfo . 'attachments:' . $msq;
         } else {
             return 'Ваше повідомлення надіслано.';
         }
