@@ -112,9 +112,9 @@
             <div class="picture_text_buttom">
                 <img src="img/three_criminal_mercedes.jpg" alt="">
                 <div class="text_buttom">
-                    <span>Кримінальні справи по ДТП</span>
+                    <span>Забезпечимо ремонт Вашого авто до страхової виплати</span>
                     <div class="text">
-                        <div class="km">Адвокат у кримінальних справах при ДТП</div>
+                        <div class="km">Адвокат при ДТП</div>
                     </div>
                     <a href="lawyers/criminal">Деталі</a>
                 </div>
