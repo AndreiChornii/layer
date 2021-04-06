@@ -50,6 +50,7 @@ class EmailService
         //Attach multiple files one by one
         for ($ct = 0; $ct < count($arr_of_mail_parameters[5]); $ct++) {
             $uploadfile = tempnam(sys_get_temp_dir(), sha1($arr_of_mail_parameters[4][$ct]));
+            // $uploadfile = tempnam("/tmp", sha1($arr_of_mail_parameters[4][$ct]));
             $filename = $arr_of_mail_parameters[4][$ct];
             if (move_uploaded_file($arr_of_mail_parameters[5][$ct], $uploadfile)) {
                 $mail->addAttachment($uploadfile, $filename);
