@@ -38,7 +38,7 @@
         <div id="right_block_in_header"  class="menu_footer">
             <ul>
                 <li>Зв'яжіться електронною поштою</li>
-                <li><a href="mailto:strongfart@i.ua">strongfart@i.ua</a></li>
+                <li><a href="mailto:avtoadvocat-dp@ukr.net">avtoadvocat-dp@ukr.net</a></li>
                 <li>або за телефонами</li>
                 <li>(066)419-79-52</li>
                 <li>Адреса:</li>
@@ -271,7 +271,7 @@
             <div class="menu_footer">
                 <ul>
                     <li>Зв'яжіться електронною поштою</li>
-                    <li><a href="mailto:strongfart@i.ua">strongfart@i.ua</a></li>
+                    <li><a href="mailto:avtoadvocat-dp@ukr.net">avtoadvocat-dp@ukr.net</a></li>
                     <li>або за телефонами</li>
                     <li>(066)419-79-52</li>
                     <li>Адреса:</li>
