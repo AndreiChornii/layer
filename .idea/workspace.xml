@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="" />
+    <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Ijdb/Controllers/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/Controllers/Email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Ijdb/Entity/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/Entity/Email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Ijdb/IjdbRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/IjdbRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/email.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/email.html.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +92,7 @@
       <workItem from="1612836362657" duration="458000" />
       <workItem from="1612982948319" duration="542000" />
       <workItem from="1613525063158" duration="989000" />
+      <workItem from="1640943107492" duration="7157000" />
     </task>
     <servers />
   </component>

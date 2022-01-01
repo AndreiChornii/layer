@@ -19,6 +19,25 @@ class Email
         return ['template' => 'email.html.php', 'title' => $title];
     }
 
+    public function periodEmail() {
+        if( $curl = curl_init() ){
+//        echo 'aaaaaaaaaaa';lawyers/email  http://lawyer-dnepr/lawyers/email
+            curl_setopt($curl, CURLOPT_URL, 'http://lawyer-dnepr/lawyers/email');
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl, CURLOPT_POST, true);
+            curl_setopt($curl, CURLOPT_POSTFIELDS, "name_field_set='Period_email_not_application_loose_access_to_google_mailbox'");
+            $out = curl_exec($curl);
+            if($out === false){
+                echo 'Error curl exec: ' . curl_error($curl);
+            } else {
+                echo $out;
+            }
+            curl_close($curl);
+        } else {
+            echo 'Error init';
+        }
+    }
+
     public function processEmail() {
         $arr_of_mail_parameters = [];
         $arr_of_mail_parameters[] = $_POST['name_field_set'];

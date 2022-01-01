@@ -221,6 +221,12 @@ class IjdbRoutes implements \Ninja\Routes {
                     'action' => 'processEmail'
                 ]
             ],
+            'lawyers/periodemail' => [
+                'GET' => [
+                    'controller' => $emailController,
+                    'action' => 'periodEmail'
+                ]
+            ]
         ];
 
         return $routes;
