@@ -22,7 +22,12 @@ class Email
     public function periodEmail() {
         if( $curl = curl_init() ){
 //        echo 'aaaaaaaaaaa';lawyers/email  http://lawyer-dnepr/lawyers/email
-            curl_setopt($curl, CURLOPT_URL, 'http://lawyer-dnepr/lawyers/email');
+            var_dump($_SERVER);
+            if($_SERVER['HTTP_HOST'] === 'lawyer-dnepr'){
+                curl_setopt($curl, CURLOPT_URL, 'http://lawyer-dnepr/lawyers/email');
+            } else {
+                curl_setopt($curl, CURLOPT_URL, 'https://lawyer-dnepr.chornii.dp.ua/lawyers/email');
+            }
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_POST, true);
             curl_setopt($curl, CURLOPT_POSTFIELDS, "name_field_set='Period_email_not_application_loose_access_to_google_mailbox'");
