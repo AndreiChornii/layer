@@ -22,7 +22,7 @@ class Email
     public function periodEmail() {
         if( $curl = curl_init() ){
 //        echo 'aaaaaaaaaaa';lawyers/email  http://lawyer-dnepr/lawyers/email
-            var_dump($_SERVER);
+//            var_dump($_SERVER);
             if($_SERVER['HTTP_HOST'] === 'lawyer-dnepr'){
                 curl_setopt($curl, CURLOPT_URL, 'http://lawyer-dnepr/lawyers/email');
             } else {
