@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="730e5218-32d8-447e-83c6-b6988599eae9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/classes/Ijdb/Controllers/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/Controllers/Email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Ijdb/Entity/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Ijdb/Entity/Email.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +89,7 @@
       <workItem from="1612982948319" duration="542000" />
       <workItem from="1613525063158" duration="989000" />
       <workItem from="1640943107492" duration="9732000" />
+      <workItem from="1641140258263" duration="287000" />
     </task>
     <servers />
   </component>
