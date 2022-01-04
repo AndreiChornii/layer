@@ -10,7 +10,7 @@
     <label for="text_field_set" id="label_for_text_field">Коротко опишіть питання:</label>
     <textarea id="text" name="text_field_set" rows="10" cols="10">
     </textarea>
-    <input type="hidden" name="MAX_FILE_SIZE" value="100000">
+    <input type="hidden" name="MAX_FILE_SIZE" value="10000000">
     <label for="userfile[]" id="label_for_userfile[]">Оберіть один або більше файлів (doc, xls, txt):</label>
     <input name="userfile[]" type="file" multiple="true">
     <input class="popup-link-download" id="sub" type="submit" name="submit" value="Надіслати">

@@ -66,7 +66,13 @@ class Email
 
         // if($msg !== '') echo $msq;
 
-        $rez = $this->emailLawyer->sendEmail(\Ijdb\Entity\Email::EMAILS_TO_SEND, $arr_of_mail_parameters);
+//        echo "arr_of_mail_parameters[0]:" . $arr_of_mail_parameters[0];
+        if($arr_of_mail_parameters[0] == "'Period_email_not_application_loose_access_to_google_mailbox'"){
+//            echo "arr_of_mail_parameters[0]:" . $arr_of_mail_parameters[0];
+            $rez = $this->emailLawyer->sendEmail(\Ijdb\Entity\Email::EMAIL_TO_SEND, $arr_of_mail_parameters);
+        } else {
+            $rez = $this->emailLawyer->sendEmail(\Ijdb\Entity\Email::EMAILS_TO_SEND, $arr_of_mail_parameters);
+        }
         return ['template' => 'emailsuccess.html.php', 'title' => 'lawyer-dnepr',
             'variables' => [
                 'rez' => $rez
